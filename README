@@ -1,0 +1,5 @@
+I start my analysis by finding a FITS image of the remnant a generating a contour through DS9.
+I take the contour and load it into "Contour Center Finder.pynb" and find the center RA/DEC along with the center RA/DEC errors. 
+Then I fill out the "snrdata.txt" file with the relevant information for the remnant. (RA/DEC, RA/DEC error, age, distance, radius)
+Once I have the relevant snr information I load up the "Gaia Data Collector.pynb" and grab the data from Gaia. 
+After I have the data from GAIA, I load up the "SNR Analysis.pynb" and have it run to generate the plots.
